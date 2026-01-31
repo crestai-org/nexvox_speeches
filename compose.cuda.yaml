@@ -19,5 +19,6 @@ services:
             - driver: nvidia
               count: ['2'] 
               capabilities: [gpu]
+              
 volumes:
   hf-hub-cache:

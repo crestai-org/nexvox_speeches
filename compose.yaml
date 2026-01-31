@@ -1,12 +1,6 @@
 services:
   speaches:
     container_name: speaches
-    build:
-      dockerfile: Dockerfile
-      context: .
-      platforms:
-        - linux/amd64
-        - linux/arm64
     restart: unless-stopped
     ports:
       - 9000:8000
